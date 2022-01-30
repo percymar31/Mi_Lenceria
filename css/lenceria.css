@@ -1,0 +1,195 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*Se le da la esctrutura al cuerpo de la pagina web*/
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin: auto;
+}
+
+/*Se le da la esctrutura al navbar*/
+.navbar-brand, .nav-link{
+	color: white;
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+
+/*Header*/
+.header .container {
+	color: black;
+	border: solid 4px white;
+	border-radius: 25px;
+	padding: 0px;
+}
+.header .img-fluid{
+	width: 100%;
+	height: 500px;
+	border-radius: 30px;
+}
+.header {
+	padding-top: 25px; /*Espacio del borde superior y el marco de portada*/
+}
+
+/*Carosuel*/
+.carousel-inner img{
+	width: 100%;
+	height: 500px;
+}
+
+
+/*Se le da la esctrutura a la Sección Mi Empresa*/
+#empresa h2{
+	/*text-align: center;*/
+	padding-top: 10px;
+	font-size: 36px;
+}
+#empresa .container{
+	width: 100%;
+	height: auto;
+	background-color: rgb(234, 189, 252);
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 0px;
+}
+#empresa figure{
+	width: 100%;
+	
+}
+
+
+/*Se le da la esctrutura a la Sección Mis Productos*/
+#productos{
+	padding: 20px;
+	text-align: center;
+}
+#productos h2{
+	font-size: 40px;
+	font-weight: 600;
+	color: #ED5D79;
+}
+#productos h3{
+	font-size: 30px;
+	font-weight: 500;
+	color: #ED5D79;
+}
+#productos ul li a{
+	color: black;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+/*Se le da la esctrutura a la Sección Mi Galeria Brasier*/
+#galeriab{
+	padding: 40px;
+}
+#galeriab .container{
+	background-color: rgba(241, 203, 232, 0.863);
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 30px;
+}
+#galeriab .container img{
+	width: 100%;
+	height: 82%;
+	text-align: center;
+	border: solid 2px white;
+	border-radius: 30px;
+}
+ #galerib h2{
+	/*text-align: center;*/
+	padding-top: 10px;
+	font-size: 36px;
+}
+
+/*Se le da la esctrutura a la Sección Mi Galeria Panty*/
+#galeriap{
+	padding: 10px;
+}
+#galeriap .container{
+	background-color: rgba(129, 231, 143, 0.863);
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 30px;
+}
+#galeriap .container img{
+	width: 100%;
+	height: 82%;
+	text-align: center;
+	border: solid 2px white;
+	border-radius: 30px;
+}
+ #galerip h3{
+	/*text-align: center;*/
+	padding-top: 10px;
+	font-size: 36px;
+}
+
+/*Se le da la esctrutura a la Sección Mi Galeria Conjuntos*/
+#galeriac{
+	padding: 40px;
+}
+#galeriac .container{
+	background-color: rgba(132, 229, 236, 0.863);
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 30px;
+}
+#galeriac .container img{
+	width: 100%;
+	height: 82%;
+	text-align: center;
+	border: solid 2px white;
+	border-radius: 30px;
+}
+ #galeric h2{
+	/*text-align: center;*/
+	padding-top: 10px;
+	font-size: 36px;
+}
+
+/*Se le da la esctrutura a la Sección Mi Galeria Baby Doll*/
+#galeriabd{
+	padding: 40px;
+}
+#galeriabd .container{
+	background-color: rgba(165, 6, 72, 0.863);
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 30px;
+}
+#galeriabd .container img{
+	width: 100%;
+	height: 82%;
+	text-align: center;
+	border: solid 2px white;
+	border-radius: 30px;
+}
+ #galeribd h2{
+	/*text-align: center;*/
+	padding-top: 10px;
+	font-size: 36px;
+}
+
+/*Footer*/
+.footer-pie{
+	text-align: center;
+	color: black;
+	padding-bottom: 5px; /*Espacio del pie del footer y el borde inferior*/
+}
+.page-footer h5{
+	font-size: 26px;	
+}
+.page-footer p, .page-footer .list-unstyled, .page-footer .footer-copyright{
+	font-size: 19px;
+}
+footer h5, footer li, footer p{
+	text-align: center;
+}
